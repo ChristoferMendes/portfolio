@@ -18,7 +18,7 @@ const Navbar = () => {
           window.scrollTo(0, 0)
         }}>
 
-          <img src={logo} alt='logo' className='w-14 h-14 rounded-full bg-slate-300' />
+          <img src={logo} alt='logo' className='w-14 h-14 rounded-full invert' />
           <p className='text-white text-[18px] font-bold cursor-pointer'>
             Christofer Mendes &nbsp;
             <span className='sm:block hidden text-secondary'>| Web and Native Developer</span>
