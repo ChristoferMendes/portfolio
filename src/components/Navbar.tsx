@@ -18,10 +18,10 @@ const Navbar = () => {
           window.scrollTo(0, 0)
         }}>
 
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain bg-white rounded-full' />
+          <img src={logo} alt='logo' className='w-14 h-14 rounded-full bg-slate-300' />
           <p className='text-white text-[18px] font-bold cursor-pointer'>
-            Mendes &nbsp;
-            <span className='sm:block hidden text-secondary'>| React Master</span>
+            Christofer Mendes &nbsp;
+            <span className='sm:block hidden text-secondary'>| Web and Native Developer</span>
           </p>
         </Link>
         <NavItems />
